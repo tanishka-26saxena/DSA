@@ -1,0 +1,7 @@
+//MINIMUM SPANNING TREE
+//A minimum spanning tree or MST is a tree in which we have N nodes and N-1 edges
+// and all nodes are reachable from each other
+
+//Can be found using two algorithms :
+//1. Kruskal's Algorithm
+//2. Prim's Algorithm

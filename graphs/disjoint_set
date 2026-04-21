@@ -1,0 +1,14 @@
+//DISJOINT SET
+// usually used in dynamic graphs (graphs whose configuration changes over time i.e. edges are added or removed)
+// to check whether two nodes belong to the same component or not
+// can also be used to detect cycle in an undirected graph
+// can be used in kruskal's algorithm to find MST
+
+//gives us two options :
+//1. find parent of a node (ultimate goal)
+//2. union of two nodes 
+// We use two optimizations :
+// 1. Union by rank : attach smaller rank tree under root of higher rank tree
+// 2. Union by size : attach smaller size tree under root of larger size tree
+
+ 
